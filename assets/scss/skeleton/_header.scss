@@ -1,0 +1,191 @@
+header.content-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1003;
+    height: $header-height;
+    border-bottom: $box-borders;
+    background: $header-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    gap: 15px;
+    transition: .3s ease all;
+    .content-header-logo {
+      .container-header-logo {
+        img {
+          width: auto;
+          height: 100%;
+          max-height: 75px;
+        }
+        h1 {
+          font-size: 24px;
+          line-height: 0.6;
+          white-space: nowrap;
+          a {
+            color: $header-page-title-color;
+            transition: .3s ease all;
+          }
+          span {
+            color: $header-page-title-color-span;
+            transition: .3s ease all;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    #navigation {
+      display: none;
+      nav {
+        ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: $header-menu-justify;
+          align-items: center;
+          gap: 35px;
+          li {
+            list-style: none;
+            p {
+              margin: 0;
+              text-transform: $header-links-text-transform;
+              a {
+                text-decoration: none;
+                color: $header-links-color;
+                transition: .3s ease all;
+              }
+              a:hover {
+                text-decoration: $header-links-text-decoration-hover;
+                color: $header-links-color-hover;
+                transition: .3s ease all;
+              }
+            }
+          }
+        }
+      }
+    }
+    #mobile-header {
+      p {
+        margin: 0;
+      }
+    }
+}
+header.content-header.scrolling {
+  background: $header-color-scrolling;
+  .content-header-logo {
+    .container-header-logo {
+      h1 {
+        a {
+          color: $header-page-title-color-scrolling;
+        }
+        span {
+          color: $header-page-title-color-span-scrolling;
+        }
+      }
+    }
+  }
+  #navigation {
+    nav {
+      ul {
+        li {
+          p {
+            a {
+              color: $header-links-color-scrolling;
+            }
+            a:hover {
+              color: $header-links-color-hover-scrolling;
+            }
+          }
+        }
+        li.styled { 
+          a {
+            color: $header-links-styled-color-hover-scrolling; 
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $sm) {}
+@media (min-width: $md) {}
+@media (min-width: $lg) {
+  header.content-header {
+    justify-content: flex-start;
+    padding: 0 60px;
+      .content-header-logo {
+        .container-header-logo {
+          img {
+          }
+          h1 {
+          font-size: 32px;
+            a {
+            }
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      #navigation {
+        width: 100%;
+        display: block;
+      nav {
+        ul {
+          li {
+            p {
+              a {
+              }
+              a:hover {
+              }
+            }
+          }
+          li.styled { margin-left: $header-menu-li-styled-margin-left; }
+          li.styled a { color: $header-menu-li-styled-color; border-color: $header-menu-li-styled-color-border; margin-top: 0; }
+          li.styled a:hover { color: $header-menu-li-styled-color-hover; background-color: $header-menu-li-styled-color-background-hover; }
+        }
+      }
+      }
+      #mobile-header {
+          display: none;
+      }
+  }
+}
+@media (min-width: $xl) {
+  header.content-header {
+    justify-content: flex-start;
+    padding: 0 60px;
+      .content-header-logo {
+        .container-header-logo {
+          img {
+          }
+          h1 {
+          font-size: 36px;
+            a {
+            }
+            span {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+      #navigation {
+        display: block;
+      nav {
+        ul {
+          li {
+            p {
+              a {
+              }
+              a:hover {
+              }
+            }
+          }
+        }
+      }
+      }
+      #mobile-header {
+          display: none;
+      }
+  }
+}

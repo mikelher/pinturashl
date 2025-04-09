@@ -1,0 +1,22 @@
+section {
+  .content-section-title-subtitle {
+    .container-section-title-subtitle {
+      margin-bottom: 15px;
+      text-align: center;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      p {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+
+@media (min-width: $sm) {}
+@media (min-width: $md) {}
+@media (min-width: $lg) {}
+@media (min-width: $xl) {}

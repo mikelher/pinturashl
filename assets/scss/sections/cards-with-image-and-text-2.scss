@@ -1,0 +1,92 @@
+section {
+  .content-cards-with-image-and-text-2 {
+    .content-section-title-subtitle {
+      text-align: left;
+    }
+    .container-cards-with-image-and-text-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 25px;
+      margin-top: 25px;
+      .content-card-item {
+        .container-card-item {
+          .content-image {
+            overflow: hidden;
+            height: 250px;
+            img:hover {
+              transform: scale(1.1);
+            }
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: center;
+              transition: .3s ease all;
+            }
+          }
+          .box-text {
+            border-radius: $radius;
+            padding: 15px;
+            width: 80%;
+            margin: 0 auto;
+            box-shadow: $box-shadow;
+            h3, p {
+              text-align: left;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $sm) {
+  section {
+    .content-cards-with-image-and-text-2 {
+      .content-section-title-subtitle {}
+      .container-cards-with-image-and-text-2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin-top: 45px;
+        .content-card-item {
+          .container-card-item {
+            .content-image {
+              height: 350px;
+              img:hover {}
+              img {}
+            }
+            .box-text {
+              padding: 35px;
+              h3 {
+                min-height: 95px;
+              }
+              h3, p {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $md) {
+  section {
+    .content-cards-with-image-and-text-2 {
+      .content-section-title-subtitle {}
+      .container-cards-with-image-and-text-2 {
+        .content-card-item {
+          .container-card-item {
+            .content-image {
+              height: 450px;
+              img:hover {}
+              img {}
+            }
+            .box-text {h3, p {}}
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $lg) {}
+@media (min-width: $xl) {}

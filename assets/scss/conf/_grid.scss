@@ -1,0 +1,30 @@
+//////////
+// GRID //
+/////////
+
+.container {
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: $sm) {
+  .container {
+    max-width: $sm - 50px;
+  }
+}
+@media (min-width: $md) {
+  .container {
+    max-width: $md - 50px;
+  }
+}
+@media (min-width: $lg) {
+  .container {
+		max-width: $lg - 50px;
+  }
+}
+@media (min-width: $xl) {
+  .container {
+    max-width: $xl - 350px;
+  }
+}

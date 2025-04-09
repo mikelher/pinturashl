@@ -1,0 +1,25 @@
+@import "conf/conf";
+@import "conf/base";
+@import "conf/admin";
+
+@import "conf/grid";
+@import "conf/default/cookies";
+
+//SKELETON
+@import "skeleton/header";
+@import "skeleton/footer";
+@import "skeleton/menu.movil";
+
+//PAGES
+@import "pages/home";
+
+//PARTS
+@import "parts/page-header";
+
+//SECTIONS
+@import "sections/image-text";
+@import "sections/title-and-subtitle";
+@import "sections/cards-with-image-and-text";
+@import "sections/cards-with-image-and-text-2";
+@import "sections/title-and-text-with-bg";
+@import "sections/list-icons-with-image";

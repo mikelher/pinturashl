@@ -1,0 +1,17 @@
+.content-posts .container-posts {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 15px 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+.content-posts .container-posts .content-post .container-post img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.content-posts .container-posts .content-post .container-post a {
+  text-decoration: none;
+}

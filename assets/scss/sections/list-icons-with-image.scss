@@ -1,0 +1,101 @@
+section {
+  .content-list-icons-with-image {
+    .container-list-icons-with-image {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 15px;
+      .content-list {
+        .container-list {
+          .content-item {
+            .container-item {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 25px;
+              margin-bottom: 25px;
+              .icon {
+                p {
+                  font-size: 35px;
+                  i {
+                    color: $corporative-color-2;
+                  }
+                }
+              }
+              .text {
+                p {
+                  margin-bottom: 0;
+                  a {
+                    color: $text-light;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .content-image {
+        .container-image {
+          img {
+            object-fit: cover;
+            object-position: center;
+            height: 500px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: $sm) {
+  section {
+    .content-list-icons-with-image {
+      .container-list-icons-with-image {
+        grid-template-columns: 0.5fr 1fr;
+        grid-gap: 25px;
+        .content-list {
+          .container-list {
+            .content-item {
+              .container-item {
+                gap: 40px;
+                margin-bottom: 45px;
+                .icon {
+                  p {
+                    font-size: 55px;
+                  }
+                }
+                .text {p {a {}}}
+              }
+            }
+          }
+        }
+        .content-image {
+          .container-image {
+            img {
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $md) {
+  section {
+    .content-list-icons-with-image {
+      .container-list-icons-with-image {
+        .content-list {.container-list {.content-item {.container-item {.icon {p {}}.text {p {a {}}}}}}}
+        .content-image {
+          .container-image {
+            img {
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: $lg) {}
+@media (min-width: $xl) {}

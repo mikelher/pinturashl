@@ -1,0 +1,176 @@
+/////////////////
+// DIMENSIONES //
+/////////////////
+$mb: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1367px;
+$xl: 1921px;
+
+/////////////
+// COLORES //
+/////////////
+$text-elight: #7F7E7E;
+$text-light: #5E5F63;
+$text: #26232A;
+
+//Naranja
+$corporative-color-1-elight: #FFBD69;
+$corporative-color-1-light: #FFAB40;
+$corporative-color-1: #F88E0A;
+
+//Azul petroleo
+$corporative-color-2-elight: #5D87A3;
+$corporative-color-2-light: #3A6B8A;
+$corporative-color-2: #235778;
+
+//Boxes
+$box-background-dark: #E1DDEF;
+$box-background-light: #F8F7FC;
+
+$success: #3ADB76;
+$warning: #FFAE00;
+$alert: #CC4B37;
+
+/////////////
+// VARIOS APARIENCIA // 
+/////////////
+
+//Header
+$header-height: 90px;
+$front-content-padding: 0px;
+$page-content-padding: 90px;
+$header-color: rgba(255, 255, 255, 0.15);
+$sidr-bg-color: rgba(255, 255, 255, 1);
+$header-page-title-color: $corporative-color-1;
+$header-page-title-color-span: $corporative-color-1-light;
+$header-color-scrolling: rgba(255, 255, 255, 1);
+$header-page-title-color-scrolling: $corporative-color-1;
+$header-page-title-color-span-scrolling: $corporative-color-2;
+
+//Menu
+$header-links-color-hover: #fff;
+$header-links-color: #fff;
+$header-links-text-transform: uppercase;
+$header-links-text-decoration-hover: underline;
+$header-menu-justify: flex-end;
+$header-menu-li-styled-margin-left: unset; //auto
+$header-menu-li-styled-color: #fff;
+$header-menu-li-styled-color-background-hover: $corporative-color-1;
+$header-menu-li-styled-color-hover: #fff;
+$header-menu-li-styled-color-border: $corporative-color-1;
+$header-links-color-scrolling: $corporative-color-2;
+$header-links-color-hover-scrolling: $corporative-color-2-light;
+$header-links-styled-color-hover-scrolling: #fff;
+
+//Page Header
+$page-header-title-color: #fff;
+$page-header-links-color: #fff;
+$page-header-title-justify: center;
+$page-header-title-align: center;
+$page-header-title-text-align: center;
+$page-header-title-margin: 0px;
+$page-header-links-justify: center;
+
+//Footer
+$footer-background-color: $box-background-light;
+$footer-titles-color: $text-light;
+$footer-links-color: $text;
+$footer-rrss-links-color: $corporative-color-1;
+$footer-rrss-links-color-borders: $corporative-color-1;
+$footer-rrss-links-background-color-hover: $corporative-color-1;
+$footer-rrss-links-color-hover: #FAFAFA;
+$footer-copyright-color: $text-light;
+$footer-sitename-color: $corporative-color-1;
+
+$btn-text-transform: uppercase;
+$radius: 15px;
+$radius-circle: 50%;
+$border-size: 1px;
+$margin-sections-mb: 50px;
+$margin-sections-sm: 70px;
+$margin-sections-md: 85px;
+$margin-sections-lg: 100px;
+$margin-sections-xl: 115px;
+//$box-borders: $border-size solid $corporative-color-1;
+$box-borders: $border-size solid #EFEFEF;
+$box-shadow: 0 6px 22px 0 rgba(0, 0, 0, 0.05);
+$pretitle-icon: "\f55d";
+
+
+/////////////
+// FUENTES // 
+/////////////
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+$body-font-color: $text-light;
+$body-title-font-color: $text;
+$body-font-family: 'Winky Sans', sans-serif;
+$body-title-family: 'Anton', sans-serif;
+
+//$body-font-family: 'Boldonse', sans-serif;
+//$body-font-family: 'Playfair Display', serif;
+//$body-font-family: 'Boldonse', system-ui;
+//$body-font-family: 'Winky Sans', sans-serif;
+//$body-font-family: 'Bungee Tint', sans-serif;
+//$body-font-family: 'Anton', sans-serif;
+
+
+$title-weight: 400;
+$title-weight-strong: 600;
+$title-line-height: 150%;
+$title-word-spacing: 2px;
+$title-letter-spacing: 2px;
+$text-weight: 400;
+$text-weight-strong: 600;
+$text-line-height: 130%;
+
+$fsize-increase: 10px;
+
+$fsize-p-mb: 11px + $fsize-increase;
+$fsize-p-sm: 11px + $fsize-increase;
+$fsize-p-md: 12px + $fsize-increase;
+$fsize-p-lg: 14px + $fsize-increase;
+$fsize-p-xl: 16px + $fsize-increase;
+
+$fsize-h5-mb: 11px + $fsize-increase;
+$fsize-h5-sm: 11px + $fsize-increase;
+$fsize-h5-md: 12px + $fsize-increase;
+$fsize-h5-lg: 14px + $fsize-increase;
+$fsize-h5-xl: 16px + $fsize-increase;
+
+$fsize-h4-mb: $fsize-h5-mb + 3px;
+$fsize-h4-sm: $fsize-h5-sm + 3px;
+$fsize-h4-md: $fsize-h5-md + 3px;
+$fsize-h4-lg: $fsize-h5-lg + 3px;
+$fsize-h4-xl: $fsize-h5-xl + 3px;
+
+$fsize-h3-mb: $fsize-h4-mb + 3px;
+$fsize-h3-sm: $fsize-h4-sm + 3px;
+$fsize-h3-md: $fsize-h4-md + 3px;
+$fsize-h3-lg: $fsize-h4-lg + 3px;
+$fsize-h3-xl: $fsize-h4-xl + 3px;
+
+$fsize-h2-mb: $fsize-h3-mb + 3px;
+$fsize-h2-sm: $fsize-h3-sm + 3px;
+$fsize-h2-md: $fsize-h3-md + 3px;
+$fsize-h2-lg: $fsize-h3-lg + 3px;
+$fsize-h2-xl: $fsize-h3-xl + 3px;
+
+$fsize-h1-mb: $fsize-h2-mb + 3px;
+$fsize-h1-sm: $fsize-h2-sm + 3px;
+$fsize-h1-md: $fsize-h2-md + 3px;
+$fsize-h1-lg: $fsize-h2-lg + 3px;
+$fsize-h1-xl: $fsize-h2-xl + 3px;
+
+$scroll-margin-sections-mb: unset;
+$scroll-margin-sections-sm: -150px;
+$scroll-margin-sections-md: 10px;
+$scroll-margin-sections-lg: 100px;
+$scroll-margin-sections-xl: 110px;
